@@ -19,7 +19,7 @@ const Dashboard = () => {
 
   return (
     <div className="page-container">
-      <h1 className="page-title">Welcome, {user?.name} 👋</h1>
+      <h1 className="page-title">Welcome, {user?.name} </h1>
       <p className="page-subtitle">Choose a category below to start a quiz</p>
 
       {loading && <div className="page-loader">Loading categories...</div>}
